@@ -51,3 +51,6 @@ enabled = true
 [[analyzers]]
 name = "csharp"
 enabled = true
+[[analyzers]]
+name = "secrets"
+enabled = true
