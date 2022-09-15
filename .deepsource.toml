@@ -10,7 +10,7 @@ enabled = false
 
 [[analyzers]]
 name = "csharp"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "docker"
@@ -28,7 +28,7 @@ enabled = false
 
 [[analyzers]]
 name = "php"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "java"
@@ -43,11 +43,11 @@ enabled = false
 
 [[analyzers]]
 name = "terraform"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "javascript"
-enabled = true
+enabled = false
 
   [analyzers.meta]
   environment = ['nodejs']
@@ -62,7 +62,7 @@ enabled = true
 
 [[analyzers]]
 name = "ruby"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "go"
@@ -80,11 +80,11 @@ enabled = true
 
 [[analyzers]]
 name = "scala"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "ansible"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "dotnet-format"
