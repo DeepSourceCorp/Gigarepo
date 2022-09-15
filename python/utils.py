@@ -41,7 +41,6 @@ def store_paths(matrix: list[list[int]], i: int, j: int, path=[]) -> None:
 def parse_value(value, kind):
     converters = {
         "int": int,
-        "str": None,  # doesn't need conversion
         "float": float,
         "csv": lambda v: [item.strip() for item in v.split(",")],
         "str": lambda v: v.strip(),
